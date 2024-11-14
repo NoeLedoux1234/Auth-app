@@ -17,6 +17,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    /* Compatibility */
+    "esModuleInterop": true,  // Permet une meilleure compatibilité avec les modules CommonJS
+    "forceConsistentCasingInFileNames": true,
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
